@@ -16,6 +16,14 @@
 
 An open-source AI agent that runs 24/7 in your AWS account. It writes code, provisions infrastructure, sets up CI/CD, configures security, and debugs production issues — all using standard AWS services. No vendor lock-in, no proprietary runtime. You own everything it builds.
 
+**☁️ Deploy from your browser (no tools needed):**
+
+[**Launch Stack in AWS Console (us-east-1)**](https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/create/review?templateURL=https://raw.githubusercontent.com/inceptionstack/loki-agent/main/deploy/cloudformation/template.yaml&stackName=loki-agent)
+
+> For a different region, replace both `us-east-1` in the URL with your region.
+
+**Or use the interactive installer (requires AWS CLI):**
+
 ```bash
 bash <(curl -sfL https://raw.githubusercontent.com/inceptionstack/loki-agent/main/install.sh)
 ```
